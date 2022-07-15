@@ -128,6 +128,7 @@ div.carousel{
 
 .about-section{
     margin: 10px;
+    height:70vh;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
