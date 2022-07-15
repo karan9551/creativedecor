@@ -1,0 +1,41 @@
+@media (max-width: 980px) {
+    .carousel-item h1,p{
+        margin-top: 10%;
+    }
+    .header{
+        position: relative;
+        width: 100%;
+    }
+    .header .toggler{
+        display: block;
+        z-index: 999;
+    }
+    .navbar{
+        width: 100%;
+        height: 100vh;
+        background-color: aquamarine;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+        transform: translateX(100%);
+        transition: all 0.3s linear;
+    }
+    .navbar-list{
+        font-size: 1.5rem;
+        align-items: center;
+        flex-direction: column;
+    }
+    .active .navbar{
+        transform: translateX(0);
+    }
+    .active .fa-xmark{
+        display: block;
+    }
+    .active .fa-bars{
+        display: none;
+    }
+ }
