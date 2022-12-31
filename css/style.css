@@ -297,12 +297,18 @@ form ::placeholder{
 }
 
 form .submit-btn{
-    padding: 10px 20px;
-    background-color: #72bdff;
-    font-size: 1.2rem;
-    font-weight: 400;
+    padding: 5px 10px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
     outline: none;
     border: none;
     cursor: pointer;
 }
-
+form .submit-btn:hover {
+    background-color: #008CBA;
+    color: white;
+  }
